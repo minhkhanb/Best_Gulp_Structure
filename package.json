@@ -1,62 +1,31 @@
 {
-  "name": "gulp",
-  "version": "4.0.0",
-  "description": "The streaming build system.",
-  "homepage": "http://gulpjs.com",
-  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
-  "contributors": [
-    "Eric Schoffstall <yo@contra.io>",
-    "Blaine Bublitz <blaine.bublitz@gmail.com>"
-  ],
-  "repository": "gulpjs/gulp",
-  "license": "MIT",
-  "engines": {
-    "node": ">= 0.10"
-  },
+  "name": "2017-august-canvas",
+  "version": "1.0.0",
+  "description": "If you've previously installed gulp globally, run npm rm --global gulp before following these instructions. For more information, read this Sip.",
   "main": "index.js",
-  "files": [
-    "LICENSE",
-    "index.js",
-    "bin"
-  ],
-  "bin": {
-    "gulp": "./bin/gulp.js"
-  },
   "scripts": {
-    "lint": "eslint . && jscs index.js bin/ test/",
-    "pretest": "npm run lint",
-    "test": "mocha --async-only",
-    "cover": "istanbul cover _mocha --report lcovonly",
-    "coveralls": "npm run cover && istanbul-coveralls"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "glob-watcher": "^5.0.0",
-    "gulp-cli": "^2.0.0",
-    "undertaker": "^1.0.0",
-    "vinyl-fs": "^3.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhkhanb/2017-August-Canvas.git"
   },
+  "author": "KhaLe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhkhanb/2017-August-Canvas/issues"
+  },
+  "homepage": "https://github.com/minhkhanb/2017-August-Canvas#readme",
   "devDependencies": {
-    "eslint": "^1.7.3",
-    "eslint-config-gulp": "^2.0.0",
-    "expect": "^1.20.2",
-    "istanbul": "^0.4.3",
-    "istanbul-coveralls": "^1.0.3",
-    "jscs": "^2.3.5",
-    "jscs-preset-gulp": "^1.0.0",
-    "mkdirp": "^0.5.1",
-    "mocha": "^3.0.0",
-    "rimraf": "^2.2.5"
-  },
-  "keywords": [
-    "build",
-    "stream",
-    "system",
-    "make",
-    "tool",
-    "asset",
-    "pipeline",
-    "series",
-    "parallel",
-    "streaming"
-  ]
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^2.1.0"
+  }
 }
